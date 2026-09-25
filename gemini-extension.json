@@ -1,0 +1,12 @@
+{
+  "name": "whitemagic",
+  "version": "9.2.8",
+  "description": "Durable local memory and session continuity for AI agents — on-device store, resumable sessions, signed releases. Requires the wm binary (install.sh).",
+  "mcpServers": {
+    "whitemagic": {
+      "command": "wm",
+      "args": ["serve", "--profile", "curated"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
