@@ -1,6 +1,6 @@
 {
   "name": "whitemagic",
-  "version": "9.2.8",
+  "version": "9.3.4",
   "description": "Durable local memory and session continuity for AI agents — on-device store, resumable sessions, signed releases. Requires the wm binary (install.sh).",
   "mcpServers": {
     "whitemagic": {
