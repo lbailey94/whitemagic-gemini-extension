@@ -1,11 +1,17 @@
 {
   "name": "whitemagic",
   "version": "9.3.4",
-  "description": "Durable local memory and session continuity for AI agents — on-device store, resumable sessions, signed releases. Requires the wm binary (install.sh).",
+  "description": "Stable Gen2 9.3.4 local memory over MCP; pinned npm launcher, local store.",
   "mcpServers": {
     "whitemagic": {
-      "command": "wm",
-      "args": ["serve", "--profile", "curated"]
+      "command": "npx",
+      "args": [
+        "-y",
+        "whitemagic-mcp@9.3.4",
+        "serve",
+        "--profile",
+        "curated"
+      ]
     }
   },
   "contextFileName": "GEMINI.md"
