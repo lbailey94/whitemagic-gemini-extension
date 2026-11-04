@@ -1,6 +1,6 @@
 # WhiteMagic — Gemini CLI context
 
-This extension wires the `whitemagic` MCP server (the local `wm` binary). It
+This extension wires the `whitemagic` MCP server (the pinned stable Gen2 9.3.4 launcher). It
 gives you durable, on-device project memory: decisions, checkpoints, and
 session state survive restarts, context resets, and model switches. The
 canonical store stays on this machine.

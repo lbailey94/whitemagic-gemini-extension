@@ -6,7 +6,7 @@ description: Use WhiteMagic durable memory and session continuity whenever resum
 # WhiteMagic — session continuity skill
 
 WhiteMagic gives you durable, on-device project memory. The `whitemagic` MCP
-server is wired by this repository's `.mcp.json` (stdio, `wm serve`); the
+server is wired by `gemini-extension.json` using the pinned 9.3.4 npm launcher; the
 canonical store stays on this machine.
 
 ## Session rhythm

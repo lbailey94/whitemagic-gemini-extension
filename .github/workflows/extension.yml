@@ -1,0 +1,19 @@
+name: Stable extension contract
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  manifest:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test test/manifest.test.mjs
+      - name: Pinned launcher initialize and tools/list in scratch store
+        run: node test/mcp-smoke.mjs npx -y whitemagic-mcp@9.3.4 serve --profile curated
