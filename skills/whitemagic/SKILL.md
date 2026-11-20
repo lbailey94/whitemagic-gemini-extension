@@ -1,6 +1,10 @@
 ---
 name: whitemagic
-description: Use WhiteMagic durable memory and session continuity whenever resuming previous work, recalling prior decisions, or recording checkpoints — trigger words: recall, continuity, where we left off, remember this, checkpoint. Works with the `whitemagic` MCP server wired by this extension.
+description: >-
+  Use WhiteMagic durable memory and session continuity whenever resuming previous
+  work, recalling prior decisions, or recording checkpoints. Trigger words include
+  recall, continuity, where we left off, remember this, and checkpoint. Works with
+  the whitemagic MCP server wired by this extension.
 ---
 
 # WhiteMagic — session continuity skill
